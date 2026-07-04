@@ -1,0 +1,27 @@
+# Phase 1 MVP Checklist
+
+- [ ] User signup, login, logout
+- [ ] Password hashing with Argon2id
+- [ ] JWT access token
+- [ ] Refresh token rotation
+- [ ] Store refresh token hashes, not raw tokens
+- [ ] Organization / workspace creation
+- [ ] Team membership
+- [ ] Roles: owner, admin, member, viewer
+- [ ] Permission table: `users.read`, `users.invite`, `projects.write`, `billing.read`
+- [ ] Route-level permission guards
+- [ ] Resource-level ownership checks
+- [ ] Invite teammate with expiring invite token
+- [ ] Accept invitation flow
+- [ ] Session list
+- [ ] Revoke session
+- [ ] Audit log for login, invite, role change, permission change
+- [ ] Rate limit auth routes
+- [ ] Swagger / OpenAPI docs
+- [ ] Integration tests for auth and permission failure cases
+- [ ] Docker Compose for PostgreSQL and Redis
+- [ ] Environment variables
+- [ ] Health check endpoint
+- [ ] Local database migrations
+- [ ] Seed demo roles and permissions
+- [ ] README with architecture overview
